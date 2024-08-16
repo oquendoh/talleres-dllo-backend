@@ -3,8 +3,7 @@ Punto 1: Desarrolle una función llamada convertidorTemp que reciba una temperat
  */
 
 function convertidorTemp(tempC) {
-    tempF = tempC * 9 / 5 + 32
-    return tempF
+    return tempC * 9 / 5 + 32
 }
 
 console.log(convertidorTemp(36.5)) //97.7
@@ -32,16 +31,11 @@ Es decir, que retorne si un numero es par o no, para utilizar en un condicional 
  */
 
 function mejorParidad(num) {
-    if (num % 2 == 0) {
-        paridad = 'par'
-    } else {
-        paridad = 'impar'
-    }
-    return paridad
+    return num % 2 === 0
 }
 
-console.log(mejorParidad(87)) //impar
-console.log(mejorParidad(108)) //par
+console.log(mejorParidad(87)) //false
+console.log(mejorParidad(108)) //true
 
 /**
 Punto 4: Desarrolle una funcion llamada peorParidad que, de la peor manera posible, resuelva y retorne la paridad de un numero.
@@ -50,27 +44,27 @@ Solo es necesario "resolver" hasta el numero 10.
 
 function peorParidad(num) {
     if (num == 1) {
-        paridad = 'impar'
+        paridad = false
     } else if (num == 2) {
-        paridad = 'par'
+        paridad = true
     } else if (num == 3) {
-        paridad = 'impar'
+        paridad = false
     } else if (num == 4) {
-        paridad = 'par'
+        paridad = true
     } else if (num == 5) {
-        paridad = 'impar'
+        paridad = false
     } else if (num == 6) {
-        paridad = 'par'
+        paridad = true
     } else if (num == 7) {
-        paridad = 'impar'
+        paridad = false
     } else if (num == 8) {
-        paridad = 'par'
+        paridad = true
     } else if (num == 9) {
-        paridad = 'impar'
+        paridad = false
     } else if (num == 10) {
-        paridad = 'par'
+        paridad = true
     }
     return paridad
 }
 
-console.log(peorParidad(9)) //impar
+console.log(peorParidad(9)) //false
