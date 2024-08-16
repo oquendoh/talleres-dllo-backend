@@ -19,7 +19,7 @@ function nLargestElement(array, n) {
     return sortedArray[n - 1]
 }
 
-console.log(nLargestElement([6, 1, 7, 3, 9, 5], 2)); //7
+console.log(nLargestElement([6, 1, 7, 3, 9, 5], 2)) //7
 
 //Desarrolle una función que retorne el producto maximo de dos numeros de una lista.
 
@@ -28,9 +28,7 @@ function maxProduct(array) {
     return Math.max(sortedArray[0] * sortedArray[1])
 }
 
-// Ejemplo de uso
-const lista = [4, -10, 7, -3, 9];
-console.log(maxProduct(lista)); // Salida: 90 (9 * 10)
+console.log(maxProduct([4, -10, 7, -3, 9])); //90
 
 
 //Desarrolle una función que realice una busqueda binaria de un elemento (y lo retorne).
