@@ -1,6 +1,5 @@
 /**
-Punto 1: Desarrolle una función llamada findMax que reciba 
-una lista de números por parámetro y retorne el mayor valor.
+Punto 1: Desarrolle una función llamada findMax que reciba una lista de números por parámetro y retorne el mayor valor.
 No permitido Math.max que trae Javascript por defecto.
  */
 
@@ -18,9 +17,8 @@ lis = [3, 17, -1, 4, -19]
 console.log(findMax(lis)) //17
 
 /**
-Punto 2: Desarrolle una función llamada includes que reciba 
-una lista de números y un numero por parámetro y retorne 
-un booleano representando si el numero se encuentra en la lista.
+Punto 2: Desarrolle una función llamada includes que reciba una lista de números y un numero por parámetro 
+y retorne un booleano representando si el numero se encuentra en la lista.
 No permitido includes que trae Javascript por defecto.
 */
 
@@ -39,8 +37,7 @@ console.log(includes(lis,2)) //false
 console.log(includes(lis,4)) //true
 
 /**
-Punto 3: Desarrolle una función llamada sum que reciba una lista 
-de números y retorne la suma de los elementos de la lista.
+Punto 3: Desarrolle una función llamada sum que reciba una lista de números y retorne la suma de los elementos de la lista.
  */
 
 function sum(lista) {
@@ -55,9 +52,7 @@ lis = [3, 17, -1, 4, -19]
 console.log(sum(lis)) //4
 
 /**
-Punto 4: Desarrolle una función llamada missingNumbers que reciba 
-una lista de números y retorne una lista de los números faltantes 
-entre el menor y mayor de la lista.
+Punto 4: Desarrolle una función llamada missingNumbers que reciba una lista de números y retorne una lista de los números faltantes entre el menor y mayor de la lista.
  */
 
 function missingNumbers(lista) {
