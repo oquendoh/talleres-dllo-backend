@@ -1,4 +1,4 @@
-const datos = require("./datos.json");
+const datos = require("./datos.json")
 
 /*
   Para correr este archivo, utilicen el comando
@@ -36,7 +36,7 @@ function puntoUno(estudiantes) {
  * Los 'estudiantes' vienen del archivo 'datos.json', que ya fue importado para ustedes.
  */
 function puntoDos(estudiantes) {
-  return estudiantes.map(estudiante =>`${estudiante.nombre} ${estudiante.apellido}`);
+  return estudiantes.map(estudiante =>`${estudiante.nombre} ${estudiante.apellido}`)
 }
 
 /**
@@ -62,7 +62,7 @@ function puntoCuatro(numeros) {
     promedio += numeros[i]
   }
   promedio /= x
-  return promedio;
+  return promedio
 }
 
 /**
@@ -71,7 +71,7 @@ function puntoCuatro(numeros) {
  */
 function puntoCinco(palabra) {
   inv = puntoSeis(palabra)
-  return palabra === inv;
+  return palabra === inv
 }
 
 /**
