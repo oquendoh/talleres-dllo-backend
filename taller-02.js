@@ -26,10 +26,10 @@ function includes(lista, num) {
     let bool = false
     for(let i = 0; i < lista.length; i++) {
       if (lista[i] == num) {
-        bool = true
+        return true
       }
     }
-    return bool
+    return false
 }
 
 lis = [3, 17, -1, 4, -19]
@@ -60,7 +60,7 @@ function missingNumbers(lista) {
     min = findMin(lista)
     let faltantes = []
     let j = 0
-    for (let i = min; i < max; i++) {
+    for (let i = min + 1; i < max; i++) {
         if (!includes(lista, i)) {
             faltantes[j] = i
             j++
